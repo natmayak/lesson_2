@@ -8,14 +8,15 @@ print()
 
 #v.3
 for number in range(10):
-    number = number + 1
+    #number = number + 1
     print(number)
 #v.4
 lst = []
 for elem in range(10):
     lst.append(elem)
+print(lst)
 
-print("Give me some text")
+print("Give me some text ")
 text = input()
 for letter in text.split():
     print(f'{letter.upper()}')
