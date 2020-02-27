@@ -4,7 +4,7 @@ scores_sum = 0
 
 # for class_scores in school_scores:
 #     av_school_score = sum(class_scores[:(amount_of_classes - 1)])
-#I didn't gues how to count school average prior to class average. Still thinking
+#I didn't guess how to count school average prior to class average. Still thinking
 
 for score in school_scores[amount_of_classes - 1]["scores"]:
     scores_sum = sum(school_scores[amount_of_classes - 1]["scores"])
