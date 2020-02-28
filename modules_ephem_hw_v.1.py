@@ -33,10 +33,6 @@ def send_planet(bot, update):
     planet = planet_text[1]
     print(planet)
     update.message.reply_text(planet)
-    # import datetime
-    # today = datetime.datetime.today()
-    # print(today.strftime("%m/%d/%Y"))
-    # planet_ephem = getattr(ephem, planet)(today.strftime("%Y/%m/%d"))
     date = ephem.now()
     print(date)
     update.message.reply_text(date)
